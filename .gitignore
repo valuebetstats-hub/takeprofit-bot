@@ -1,0 +1,4 @@
+betfair.env
+state_*.json
+bets_*.csv
+*.log

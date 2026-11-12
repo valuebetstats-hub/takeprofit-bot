@@ -1,0 +1,2 @@
+betfairlightweight>=2.20
+flumine>=2.6

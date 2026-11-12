@@ -1,0 +1,24 @@
+{
+ "_note": "Levels from EdgeFinder's 2024-2026 Betfair SP research. take_profit / stop_loss are in POINTS (1 point = your stake). See README.md for how they were set.",
+ "stake": 1.0,
+ "commission": 0.02,
+ "band": [2.5, 3.0],
+ "strategies": {
+  "fav": {
+   "description": "Back the race favourite, only when it's priced 2.5-3.0",
+   "courses": {
+    "Southwell": {"take_profit": 10, "stop_loss": 11.3},
+    "Yarmouth":  {"take_profit": 10, "stop_loss": 7.2, "betfair_names": ["Great Yarmouth"]}
+   }
+  },
+  "all": {
+   "description": "Back every horse priced 2.5-3.0, favourite or not",
+   "courses": {
+    "Southwell": {"take_profit": 10, "stop_loss": 10.5},
+    "Newcastle": {"take_profit": 10, "stop_loss": 10.9},
+    "Dundalk":   {"take_profit": 10, "stop_loss": 8.5},
+    "Yarmouth":  {"take_profit": 10, "stop_loss": 8.2, "betfair_names": ["Great Yarmouth"]}
+   }
+  }
+ }
+}
